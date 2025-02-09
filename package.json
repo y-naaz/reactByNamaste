@@ -4,6 +4,8 @@
   "description": "This is learning React by Akshya Saini",
 
   "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -31,7 +33,5 @@
   },
   "browserslist":[
     "last 2 version"
-  ]
-  
-  
+  ]  
 }

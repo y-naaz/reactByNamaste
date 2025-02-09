@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+}
+#root{
+    background-color: #fcefc5;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    background-color: #f7d564a8;
+    height: 74px;
+
+}
+.logo{
+    padding: 0px 0 0 22px;
+}
+.nav-items >ul{
+    display: flex;
+    
+}
+.nav-items>ul>li{
+    list-style-type: none;
+    padding: 8px 12px;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 55px;
+    margin-top: 20px;
+}
+.nav-items>ul>li:hover{
+    border-bottom: 2px solid rgb(230, 7, 7);
+   
+}
+.card{
+    margin: 8px;
+    cursor: pointer;
+}
+
+input{
+    
+    border: 1px solid rgb(186, 236, 240);
+    border-radius: 4px;
+}
+.resturant-container{
+    display:flex;
+   flex-wrap: wrap;
+    /* gap:50px; Space between cards */
+    justify-content: center;
+}
+
+
